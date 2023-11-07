@@ -1,11 +1,11 @@
-About scikit-posthocs
-=====================
+About scikit-posthocs-feedstock
+===============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/scikit-posthocs-feedstock/blob/main/LICENSE.txt)
 
 Home: http://github.com/maximtrp/scikit-posthocs
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/scikit-posthocs-feedstock/blob/main/LICENSE.txt)
 
 Summary: Statistical post-hoc analysis and outlier detection algorithms
 
