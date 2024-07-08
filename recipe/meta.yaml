@@ -11,20 +11,20 @@ source:
   sha256: 61a670d5ebcfb52e93beef0a8d7ff0260fd803d2e36fcd97492e64909890dd71
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
     - pip
-    - python >=3.5
+    - python >=3.9
   run:
     - matplotlib-base
     - numpy
     - pandas >=0.20.0
-    - python >=3.5
-    - scipy
+    - python >=3.9
+    - scipy >=1.9.0
     - seaborn
     - statsmodels
 
