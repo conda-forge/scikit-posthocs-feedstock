@@ -1,5 +1,5 @@
 {% set name = "scikit-posthocs" %}
-{% set version = "0.11.0" %}
+{% set version = "0.11.1" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: 5e19347327faa3f661d1f1e7c8afb37cd9ac1fcaac51633df94aa5d2a44c2e9a
+  sha256: ac6ebef9d019b1fd802c122b79bd0441f419ccd641a91eeb2c9b86c87ec79bd1
 
 build:
   number: 0
