@@ -11,7 +11,7 @@ source:
   sha256: 805a30350497341ee3a573bb92953515dbb4c4c7b4bac5def09721a98a3489d2
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
@@ -19,12 +19,12 @@ requirements:
   host:
     - pip
     - setuptools
-    - python >=3.9
+    - python {{ python_min }}
   run:
     - matplotlib-base
     - numpy
     - pandas >=0.20.0
-    - python >=3.9
+    - python >={{ python_min }}
     - scipy >=1.9.0
     - seaborn
     - statsmodels
@@ -36,6 +36,7 @@ test:
     - pip check
   requires:
     - pip
+    - python {{ python_min }}
 
 about:
   home: http://github.com/maximtrp/scikit-posthocs
